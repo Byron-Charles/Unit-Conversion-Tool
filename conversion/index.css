@@ -1,0 +1,51 @@
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 600px;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #6943ff;
+  /* width: 600px; */
+  color: #fff;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.input-field {
+  border: 1px #fff solid;
+  width: 100px;
+  height: 75px;
+  background: inherit;
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+}
+
+.convert-btn {
+  margin-top: 25px;
+  background: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 20px;
+}
+
+.display-wrapper {
+  background: #f4f4f4;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.display {
+  background: #fff;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 10px;
+  margin-top: 20px;
+}
